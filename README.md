@@ -200,21 +200,8 @@ loading data from : lbfmodel.yaml
           "b": 116
         },
         "left_cheek": {
-      },
-      "colors": {
-        "forehead": {
-          "r": 172,
           "g": 131,
           "b": 116
-        },
-        "left_cheek": {
-          "g": 131,
-          "b": 116
-        },
-        "left_cheek": {
-          "r": 102,
-          "g": 65,
-          "b": 51
         },
         "right_cheek": {
           "r": 215,
