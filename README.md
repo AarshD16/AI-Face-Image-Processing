@@ -141,6 +141,95 @@ python main.py image1.jpg image2.jpg
 python main.py group_photo.jpg
 ```
 
+## Input
+![**Input Image**](sample_one.jpg)
+
+## Output
+
+```json
+loading data from : lbfmodel.yaml
+{
+  "image": "sample_one.jpg",
+  "faces": [
+    {
+      "id": 0,
+      "landmarks_original": {
+        "forehead": [
+          {
+            "x": 2548,
+            "y": 1193
+          },
+          {
+            "x": 3251,
+            "y": 1286
+          }
+        ],
+        "left_cheek": [
+          {
+            "x": 2243,
+            "y": 1896
+          },
+          {
+            "x": 2270,
+            "y": 2090
+          },
+          {
+            "x": 2337,
+            "y": 2269
+          }
+        ],
+        "right_cheek": [
+          {
+            "x": 3429,
+            "y": 2315
+          },
+          {
+            "x": 3505,
+            "y": 2142
+          },
+          {
+            "x": 3554,
+            "y": 1962
+          }
+        ]
+      },
+      "colors": {
+        "forehead": {
+          "r": 172,
+          "g": 131,
+          "b": 116
+        },
+        "left_cheek": {
+      },
+      "colors": {
+        "forehead": {
+          "r": 172,
+          "g": 131,
+          "b": 116
+        },
+        "left_cheek": {
+          "g": 131,
+          "b": 116
+        },
+        "left_cheek": {
+          "r": 102,
+          "g": 65,
+          "b": 51
+        },
+        "right_cheek": {
+          "r": 215,
+          "g": 173,
+          "b": 156
+        }
+      }
+    }
+  ]
+}
+```
+
+![**Output Image**](sample_one_annotated.jpg)
+
+
 ## 🙋‍♂️ Author
 
 **Made by Harshit Diwan**
