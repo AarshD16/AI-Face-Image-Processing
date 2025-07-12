@@ -81,9 +81,9 @@ pip install opencv-contrib-python numpy
 ### ✅ Pre-trained Models
 
 - **Place the following model files in the project directory:**
-    - deploy.prototxt: Face detection model config
-    - res10_300x300_ssd_iter_140000.caffemodel:	Face detection weights
-    - lbfmodel.yaml: Facial landmark model
+    - [deploy.prototxt](https://github.com/opencv/opencv/blob/master/samples/dnn/face_detector/deploy.prototxt): Face detection model config
+    - [res10_300x300_ssd_iter_140000.caffemodel](https://github.com/opencv/opencv/blob/master/samples/dnn/face_detector/res10_300x300_ssd_iter_140000.caffemodel):	Face detection weights
+    - [lbfmodel.yaml](https://github.com/kurnianggoro/GSOC2017/blob/master/data/lbfmodel.yaml): Facial landmark model
 
 
 ## 🚀 Usage
